@@ -1,0 +1,12 @@
+D:\BookStorePatika\Business\bin\Debug\net5.0\Business.deps.json
+D:\BookStorePatika\Business\bin\Debug\net5.0\Business.dll
+D:\BookStorePatika\Business\bin\Debug\net5.0\Business.pdb
+D:\BookStorePatika\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+D:\BookStorePatika\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookStorePatika\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+D:\BookStorePatika\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+D:\BookStorePatika\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+D:\BookStorePatika\Business\obj\Debug\net5.0\Business.dll
+D:\BookStorePatika\Business\obj\Debug\net5.0\refint\Business.dll
+D:\BookStorePatika\Business\obj\Debug\net5.0\Business.pdb
+D:\BookStorePatika\Business\obj\Debug\net5.0\ref\Business.dll
