@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -45,6 +46,19 @@ namespace WebAPI.Controllers
             var bookList = BookList.OrderBy(x => x.Id).ToList<Book>();
             return bookList;
         }
-
+        
+        [HttpGet("{id}")]
+        public Book GetById(int id)
+        {
+            var book=BookList.Where(book=>book.Id==id).SingleOrDefault();    
+            return book;
+        }
+        /*
+        [HttpGet]
+        public Book GetById([FromQuery]string id)
+        {
+            var book=BookList.Where(book=>book.Id==Convert.ToInt32(id)).SingleOrDefault();    
+            return book;
+        }*/
     }
 }
